@@ -24,5 +24,7 @@ func handleRequest() {
 func main() {
 	fmt.Println("Go ORM Tutorial")
 
+	InitialMigration()
+
 	handleRequest()
 }
